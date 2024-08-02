@@ -4,4 +4,4 @@ This example uses Nexus to prove an execution of the [Black-Scholes option prici
 
 In order to target `riscv32` under `no_std`, math functions from `libm` instead of `std` are used.
 Furthermore, instead of using a commonly available statistics packages like `rstat`, the error function 
-and the CDF for the normal distribution are implemented here using numerical approximation.
+and the CDF for the normal distribution are implemented here using numerical approximations.
